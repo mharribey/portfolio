@@ -1,0 +1,46 @@
+.titre {
+  color: #1794AC;
+  font-size: 70px;
+  font-family: 'Orator Std', 'Roboto';
+}
+
+
+#prj {
+  padding-top: 100px;
+  text-align: center;
+}
+
+div#prj img {
+  display: inline-block;
+  margin:20px;
+  height:100px;
+}
+
+.prj-texte{
+  text-align: center;
+  display: block;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin: 60px 100px;
+}
+
+#isn {
+  background: url('../images/projets/bg/mortal_k.jpg') no-repeat center;
+}
+
+#doolt {
+
+}
+
+#coc {
+
+}
+
+#lppb {
+
+}
+
+#mh {
+
+}

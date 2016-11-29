@@ -1,0 +1,80 @@
+/* Formulaire contact */
+
+.form {
+  width:450px;
+  height:400px;
+  margin-top:180px;
+  display: inline-block;
+  border: 3px solid #1794AC;
+  vertical-align: middle;
+}
+
+#bouton {
+    width: 100px;
+    height:50px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color:#1794AC;
+    font-size:1.6em;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+#bouton:hover {
+  color:#4A4A4A;
+}
+
+.form-style-8{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 350px;
+    padding: 0px;
+    margin: 15px auto;
+}
+
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    color:#4A4A4A;
+    border-bottom: 1px solid #F0F0F0;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px 'Montserrat',Arial, Helvetica, sans-serif;
+    height: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-style-8 textarea{
+    height:6em;
+    resize:none;
+    overflow: hidden;
+}
+
+.form-style-8 input[type="text"]:focus,
+.form-style-8 input[type="email"]:focus,
+.form-style-8 input[type='url']:focus,
+.form-style-8 textarea:focus {
+    border-bottom:1px solid #1794AC;
+}
