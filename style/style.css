@@ -128,10 +128,10 @@ header {
     background-size: 1440px 800px;
 }
 
-.first-bloc {
+#first-bloc {
     margin: auto;
-    width: 600px;
-    height: 200px;
+    width: 50%;
+    height: 20%;
     vertical-align: middle;
     text-align: center;
     padding-top: 200px;
@@ -260,7 +260,7 @@ header {
 
 
 
-#bloc2 ,#bloc3, #bloc4, #bloc5 {
+#bloc2 ,#bloc3, #bloc4, #bloc5, #bloc6 {
     height: auto;
 }
 

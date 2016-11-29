@@ -5,9 +5,10 @@
 }
 
 
-#prj {
+.prj {
   padding-top: 100px;
   text-align: center;
+  height:auto;
 }
 
 div#prj img {

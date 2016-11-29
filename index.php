@@ -39,7 +39,7 @@ session_start();
         <div id="loader"></div>
 
         <div id="bloc" class='bloc'>
-            <div class="first-bloc">
+            <div id="first-bloc">
                 <h3 id="title"> Etudiant en Developpement Web </h3>
                 <h1 id="name"> Mathieu Harribey </h1>
                 <a href="#bloc2"><img src="images/arrow.png" id="arrow" alt='arrow' /></a>
