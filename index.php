@@ -123,6 +123,8 @@ session_start();
 
         <!-- Contact -->
         <div id="bloc5" class="bloc">
+          <div class="bloc-content">
+
             <div class="form" id='form-content'>
                 <h2 style="padding-top:30px;"> Leave me a note ! </h2>
 
@@ -136,20 +138,20 @@ session_start();
                         <input type="submit" value="SEND" id="bouton">
                     </form>
                 </div>
-
             </div>
 
             <div class='form' id='contact'>
                 <h2 style="padding-top:30px;"><span> Contact </span></h2>
-                <br/><br/>
+                <br/>
                 <p> 06 28 46 34 19 </p><br/>
                 <p> mathieuharribey@hotmail.fr </p><br/>
-                <p> 1 rue RomySchneider <br/> 33600 PESSAC </p>
+                <p> 1 Rue Romy Schneider <br/> 33600 PESSAC </p>
                 <br/>
                 <a href="images/CV.pdf"><h2>MON CV</h2></a>
             </div>
         </div>
 
+      </div>
     </section>
 
     <footer>

@@ -236,20 +236,23 @@ header {
     filter: grayscale(70%);
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
     width: 200px;
     height: 200px;
-    margin-right: 75px;
+    margin:auto;
+    margin-bottom: 50px;
 }
 
 #description {
+    margin-left: 5%;
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
     letter-spacing: 1px;
     line-height: 30px;
-    text-align: left;
     font-size: 0.8em;
-    width: 700px;
     color: #2F2F2F;
+    width:60%;
 }
 
 
@@ -257,7 +260,7 @@ header {
 
 
 
-#bloc3 {
+#bloc2 ,#bloc3, #bloc4, #bloc5 {
     height: auto;
 }
 
@@ -269,7 +272,6 @@ div#bloc3 div.bloc-content {
 div.bloc-content h2{
   font-size: 25px;
   letter-spacing: 2px;
-  padding-bottom:50px;
 }
 
 .project {
@@ -370,8 +372,7 @@ div.bloc-content h2{
   z-index: 1;
 }
 
-.project:hover figcaption,
-.project.hover figcaption {
+.project:hover figcaption {
   opacity: 1;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -426,7 +427,7 @@ div.bloc-content h2{
 }
 
 .form a h2 {
-  margin-top:90px;
+  margin-top:100px;
   color:#1794AC
 }
 
@@ -458,7 +459,7 @@ div.bloc-content h2{
 #form-content {
     text-align: center;
     background-color: rgba(216, 216, 216, 1);
-    margin-left: 18%;
+    /*margin-left: 18%;*/
 }
 
 #social {
