@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Disallow: js/
+Disallow: css/
+Sitemap: http://mathieuharribey.fr/sitemap.xml

@@ -4,17 +4,46 @@ session_start();
 
 <!DOCTYPE html>
 
-<html lang='fr'>
+<html lang="fr" prefix="og: http://ogp.me/ns#">
 
 <head>
     <title> Mathieu Harribey | Etudiant en Developpement Web</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/form.css">
-    <meta charset="UTF-8">
-    <meta name="description" content="Retrouvez toutes les informations à mon propos sur mon site professionnel !" />
-    <meta name="keywords" content=" mathieu, harribey, site, perso, pro, professionnel ,cv, projets, compétences, contact, mmi, iut,dut, development, developpement, web, internet, formation" />
-    <meta name="author" content="Mathieu Harribey">
+    <link rel="publisher" href="https://plus.google.com/u/0/108732331168630823318" />
+    <link rel="canonical" href="http://www.mathieuharribey.fr/" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@matharribey">
+    <meta name="twitter:title" content="Mathieu Harribey">
+    <meta name="twitter:description" content="Venez retrouver toutes les informations sur Mathieu Harribey ! Ici, vous aurez accès à son portfolio, ses compétences ainsi qu'à ses informations de contact!">
+    <meta name="twitter:image" content="http://mathieuharribey.fr/images/projets/mh_black.png">
+    <meta name="twitter:image:alt" content="Mathieu Harribey, le Portfolio.">
+
+    <meta property="og:title" content="Mathieu Harribey">
+    <meta property="og:type" content="Web Developper">
+    <meta property="og:url" content="https://mathieuharribey.fr/">
+    <meta property="og:image" content="http://mathieuharribey.fr/images/projets/mh_black.png">
+    <meta property="og:description" content="Venez retrouver toutes les informations sur Mathieu Harribey ! Ici, vous aurez accès à son portfolio, ses compétences ainsi qu'à ses informations de contact!">
+    <meta property="og:email" content="contact@mathieuharribey.fr">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="Content-Type" content="UTF-8">
+    <meta name="Content-Language" content="fr">
+    <meta name="Description" content="Retrouvez toutes les informations à de Mathieu Harribey sur son site professionnel ! Ici, vous avez accès à mes compétences, les différents projets que j'ai réalisé ainsi que mes coordonnés.">
+    <meta name="Keywords" content="mathieu, harribey, site, perso, pro, professionnel ,cv, projets, compétences, contact, mmi, iut, dut, development, developpement, web, internet, formation, design, études, portfolio, course en cours, doolt, lppb,isn">
+    <meta name="Subject" content="Portfolio">
+    <meta name="Copyright" content="Mathieu Harribey">
+    <meta name="Author" content="Mathieu Harribey">
+    <meta name="Identifier-Url" content="www.mathieuharribey.fr">
+    <meta name="Revisit-After" content="15 days">
+    <meta name="Robots" content="all">
+    <meta name="Rating" content="general">
+    <meta name="Distribution" content="global">
+    <meta name="Geography" content="Bordeaux">
+    <meta name="Category" content="internet">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -40,8 +69,8 @@ session_start();
 
         <div id="bloc" class='bloc'>
             <div id="first-bloc">
-                <h3 id="title"> Etudiant en Developpement Web </h3>
                 <h1 id="name"> Mathieu Harribey </h1>
+                <h2 id="title"> Etudiant en Developpement Web </h2>
                 <a href="#bloc2"><img src="images/arrow.png" id="arrow" alt='arrow' /></a>
             </div>
         </div>
@@ -91,30 +120,30 @@ session_start();
         <div id="bloc3" class="bloc">
             <div class="bloc-content">
 
-                <h2> Créations </h2>
+                <h3> Créations </h3>
 
                 <figure class="project">
                     <img src="images/projets/temple.jpg" alt="isn" />
                     <figcaption> <i> ISN </i> </figcaption>
-                    <a href="prj/isn.html"></a>
+                    <a href="prj/isn.html"> </a>
                 </figure>
 
                 <figure class="project">
                     <img src="images/projets/lppb.jpg" alt="lppb" />
                     <figcaption> <i> LPPB </i> </figcaption>
-                    <a href="prj/lppb.html"></a>
+                    <a href="prj/lppb.html"> </a>
                 </figure>
 
                 <figure class="project">
                     <img src="images/projets/mat_h.jpg" alt="mathieu harribey" />
                     <figcaption> <i> Mathieu Harribey </i> </figcaption>
-                    <a href="prj/mh.html"></a>
+                    <a href="prj/mh.html"> </a>
                 </figure>
 
                 <figure class="project">
                     <img src="images/projets/doolt.jpg" alt="doolt" />
                     <figcaption> <i> Doolt </i> </figcaption>
-                    <a href="prj/doolt.html"></a>
+                    <a href="prj/doolt.html"> </a>
                 </figure>
 
 
@@ -126,7 +155,7 @@ session_start();
           <div class="bloc-content">
 
             <div class="form" id='form-content'>
-                <h2 style="padding-top:30px;"> Leave me a note ! </h2>
+                <h3 style="padding-top:30px;"> Leave me a note ! </h3>
 
                 <div class="form-style-8">
                     <form method='post' action="traitement.php">
@@ -141,13 +170,13 @@ session_start();
             </div>
 
             <div class='form' id='contact'>
-                <h2 style="padding-top:30px;"><span> Contact </span></h2>
+                <h3 style="padding-top:30px;"><span> Contact </span></h3>
                 <br/>
                 <p> 06 28 46 34 19 </p><br/>
                 <p> mathieuharribey@hotmail.fr </p><br/>
                 <p> 1 Rue Romy Schneider <br/> 33600 PESSAC </p>
                 <br/>
-                <a href="images/CV.pdf"><h2>MON CV</h2></a>
+                <a href="images/CV.pdf"><h3>MON CV</h3></a>
             </div>
         </div>
 
@@ -156,7 +185,7 @@ session_start();
 
     <footer>
         <div id="bloc6">
-            <h2 style="padding-top:40px;"> Decouvrez en plus sur moi en me suivant sur les reseaux sociaux </h2>
+            <h3 style="padding-top:40px;"> Decouvrez en plus sur moi en me suivant sur les reseaux sociaux </h3>
             <div id="social">
                 <a href='https://www.facebook.com/mat.harribey'><img class="social-icon" src='images/icons/facebook-hover.png' alt='fb' /></a>
                 <a href='https://www.instagram.com/mat.harribey/'><img class="social-icon" src='images/icons/instagram-hover.png' alt='insta' /></a>

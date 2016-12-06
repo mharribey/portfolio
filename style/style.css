@@ -102,12 +102,13 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
+h3 {
     margin: 0px;
     color: #4A4A4A;
+    font-size:26px;
 }
 
-h3 {
+h2 {
     color: #1794AC;
     font-family: 'Roboto';
     font-weight: lighter;
@@ -426,14 +427,15 @@ div.bloc-content h2{
     background: url('../images/mer.jpg') center no-repeat fixed;
 }
 
-.form a h2 {
-  margin-top:100px;
+.form a h3 {
+  margin:100px;
   color:#1794AC
 }
 
-.form a h2:hover {
+.form a h3:hover {
   color:#4A4A4A;
 }
+
 
 
 /* FOOTER */
@@ -472,6 +474,9 @@ div.bloc-content h2{
     height: 50px;
     width: 50px;
     filter: contrast(0%);
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
 }
 
 
@@ -492,5 +497,6 @@ a, a:visited {
 }
 
 a:hover .social-icon {
+    transform: rotate3d(0,0,1,1080deg);
     filter: contrast(100%);
 }
