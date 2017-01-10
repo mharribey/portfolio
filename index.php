@@ -8,8 +8,8 @@ session_start();
 
 <head>
     <title> Mathieu Harribey | Etudiant en Developpement Web</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="style/style.css" media="screen">
+    <link rel="stylesheet" href="style/form.css" media="screen">
     <link rel="publisher" href="https://plus.google.com/u/0/108732331168630823318" />
     <link rel="canonical" href="http://www.mathieuharribey.fr/" />
 

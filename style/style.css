@@ -401,7 +401,24 @@ div.bloc-content h2{
   height:240px;
   width:2px;
   background-color: #4A4A4A;
-  display: inline-block;
+  display: inline-block;;
+}
+
+@media screen and (max-width: 1109px) {
+  #line {
+    display:none;
+  }
+  #imgDsg {
+    margin:auto;
+    display:block;
+  }
+  #imgDev {
+    margin:auto;
+    display: block;
+  }
+  .bloc-content {
+    padding:50px 0px;
+  }
 }
 
 .texte {
@@ -420,6 +437,8 @@ div.bloc-content h2{
 #bloc4 {
     background-color: #E9E9E9;
 }
+
+
 
 /* Contact */
 
