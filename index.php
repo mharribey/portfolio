@@ -65,7 +65,10 @@ session_start();
     ?>
 
     <header>
-        <div id="loader"></div>
+        <div id="loader">
+          <div id="loader-content"></div>
+          <p> CHARGEMENT </p>
+        </div>
 
         <div id="bloc" class='bloc'>
             <div id="first-bloc">
@@ -144,6 +147,12 @@ session_start();
                     <img src="images/projets/doolt.jpg" alt="doolt" />
                     <figcaption> <i> Doolt </i> </figcaption>
                     <a href="prj/doolt.html"> </a>
+                </figure>
+
+                <figure class="project">
+                    <img src="images/projets/ipak.jpg" alt="ipak" />
+                    <figcaption> <i> Ipak </i> </figcaption>
+                    <a href="prj/ipak.html"> </a>
                 </figure>
 
 

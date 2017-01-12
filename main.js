@@ -30,14 +30,12 @@ var getOffset = function(el) {
     }
 };
 
+window.addEventListener("load", function(){
+  // $("#loader").delay(500).fadeOut();
+  // $("#loader-content").delay(500).fadeOut();
+}, false)
 
 function main() {
-    $("#loader").delay(1500).fadeOut();
-
-
-    $('h1').hide();
-    $('h1').delay(600).fadeIn(1000);
-
 
     /* disparition barre + change nav */
     var nav = document.getElementsByClassName("navbar-container")[0];
