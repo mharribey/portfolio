@@ -4,18 +4,51 @@
   font-family: 'Orator Std', 'Roboto';
 }
 
+.prj h2 {
+  font-size: 2em;
+  color:#4A4A4A;
+}
 
 .prj {
-  padding-top: 100px;
+  padding-top: 15vh;
   text-align: center;
   height:auto;
 }
 
-div#prj img {
-  display: inline-block;
-  margin:20px;
-  height:100px;
+.prj-content {
+  margin: auto;
+  width:90%;
+  margin-top: 10vh;
 }
+
+.prj-item {
+  display:inline-block;
+  width:45%;
+  vertical-align: middle;
+}
+
+.prj-item img {
+  /*margin: 2vh -2vh -2vh 2vh;*/
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+
+.back {
+  position: absolute;
+  margin:0 8vh;
+  top:20%;
+  width:39%; height:36vh;
+  border: 3px solid #1794AC;
+}
+
+@media screen and (max-width:1280px) {
+  .back {
+    display:none;
+  }
+}
+
+
 
 .prj-texte{
   text-align: center;

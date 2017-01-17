@@ -67,13 +67,12 @@ session_start();
     <header>
         <div id="loader">
           <div id="loader-content"></div>
-          <p> CHARGEMENT </p>
         </div>
 
         <div id="bloc" class='bloc'>
             <div id="first-bloc">
                 <h1 id="name"> Mathieu Harribey </h1>
-                <h2 id="title"> Etudiant en Developpement Web </h2>
+                <h2 id="title"> Developpeur Web | Bordeaux </h2>
                 <a href="#bloc2"><img src="images/arrow.png" id="arrow" alt='arrow' /></a>
             </div>
         </div>

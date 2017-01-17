@@ -31,8 +31,8 @@ var getOffset = function(el) {
 };
 
 window.addEventListener("load", function(){
-  // $("#loader").delay(500).fadeOut();
-  // $("#loader-content").delay(500).fadeOut();
+  $("#loader").delay(1000).fadeOut();
+  $("#loader-content").delay(1000).fadeOut();
 }, false)
 
 function main() {

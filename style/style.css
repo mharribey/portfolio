@@ -450,12 +450,14 @@ div.bloc-content h2{
 }
 
 .texte {
+    width:60%;
     text-align: center;
     display: block;
     vertical-align: middle;
     letter-spacing: 1px;
     line-height: 30px;
-    margin-top: 40px;
+
+    margin: 40px auto 0;
 }
 
 #bloc2, #bloc3, #bloc6 {
@@ -489,7 +491,6 @@ div.bloc-content h2{
 
 #bloc6 {
     width: 100%;
-    height: 250px;
     text-align: center;
     margin: auto;
     vertical-align: middle;
@@ -502,7 +503,6 @@ div.bloc-content h2{
 #contact {
     text-align: center;
     background-color: rgba(216, 216, 216, 0.4);
-
 }
 
 #form-content {
